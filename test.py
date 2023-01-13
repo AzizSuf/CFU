@@ -9,3 +9,7 @@ def sep(func):
 
   return wraper
 
+
+@sep
+def some_func():
+  print('Hello everyone')
