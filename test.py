@@ -1,6 +1,6 @@
 print('Hello world')
 
-def sep(func)
+def sep(func):
   def wrapper(*argc, **kvargs):
     print('----')
     res = func(*argc, **kvargs)
@@ -8,3 +8,4 @@ def sep(func)
     return res
 
   return wraper
+
