@@ -7,9 +7,12 @@ def sep(func):
     print('----')
     return res
 
-  return wraper
+  return wrapper
 
 
 @sep
 def some_func():
   print('Hello everyone')
+
+
+some_func()
