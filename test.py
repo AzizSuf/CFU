@@ -12,7 +12,13 @@ def sep(func):
 
 @sep
 def some_func():
-  print('Hello everyone')
+  print('Hello world')
 
 
 some_func()
+some_func()
+some_func()
+some_func()
+
+
+
